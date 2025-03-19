@@ -57,7 +57,7 @@ footer {
 
 /* displayon/off */
 .logo {
-  /* display: none; */
+  display: none;
   width: 7rem;
 }
 
@@ -67,10 +67,17 @@ footer {
 }
 
 .sidemenu {
-  /* display: none; */
+  display: none;
 }
 
 .sidemenuxl {
+  display: none;
+}
+
+.sidefooter {
+  display: none;
+}
+.sidefooterxl {
   display: none;
 }
 
@@ -127,6 +134,49 @@ footer {
 }
 
 /* before */
+
+/* media */
+
+@media screen and (max-width: 552px) {
+  #sidebar {
+    width: 100px;
+  }
+
+  .maincontainer {
+    width: calc(100vw - 100px);
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logosmall {
+    display: block;
+  }
+
+  .sidemenu {
+    display: block;
+  }
+
+  .sidemenuxl {
+    display: none;
+  }
+
+  .sidefooter {
+    display: block;
+  }
+  .sidefooterxl {
+    display: none;
+  }
+
+  #playlist {
+    display: none;
+  }
+}
+
+/* media */
+
+/* ELEMENT BODY */
 
 /* sidebar */
 
@@ -193,6 +243,15 @@ footer {
   padding-bottom: 10px;
 }
 
+.installsmall {
+  font-size: 0.7rem;
+  padding-bottom: 10px;
+}
+
 .install * {
+  color: gray;
+}
+
+.installsmall * {
   color: gray;
 }
