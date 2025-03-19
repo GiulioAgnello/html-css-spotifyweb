@@ -67,6 +67,10 @@ footer {
 }
 
 .sidemenu {
+  /* display: none; */
+}
+
+.sidemenuxl {
   display: none;
 }
 
@@ -113,6 +117,15 @@ footer {
   content: "\e51e";
   font-size: 1.2rem;
 }
+
+.add::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0fe";
+  font-size: 2rem;
+  padding-right: 5px;
+}
+
 /* before */
 
 /* sidebar */
