@@ -137,9 +137,32 @@ footer {
 
 /* media */
 
+@media screen and (max-width: 1440px) {
+  .logo {
+    display: block;
+  }
+
+  .logosmall {
+    display: none;
+  }
+  .sidemenu {
+    display: none;
+  }
+
+  .sidemenuxl {
+    display: block;
+  }
+  .sidefooter {
+    display: none;
+  }
+  .sidefooterxl {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 552px) {
   #sidebar {
-    width: 100px;
+    width: 10px;
   }
 
   .maincontainer {
@@ -181,7 +204,9 @@ footer {
 /* sidebar */
 
 #sidebar {
-  width: 200px;
+  flex-grow: 1;
+  min-width: 65px;
+  max-width: 200px;
   display: flex;
   flex-direction: column;
   padding: 5px 10px;
@@ -189,7 +214,7 @@ footer {
 }
 
 .maincontainer {
-  width: calc(100vw - 200px);
+  flex-grow: 2;
 }
 
 .sidecontent {
