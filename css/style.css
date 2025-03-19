@@ -82,3 +82,34 @@ footer {
 .sidecontent {
   flex-grow: 1;
 }
+
+.sidecontent li {
+  font-size: 0.7rem;
+  padding: 10px 0px;
+  color: gray;
+}
+
+.sidecontent i {
+  font-size: 1.1rem;
+}
+
+.sidemenu {
+  padding: 10px 0px;
+}
+
+/* sidefooter */
+
+.jhonuser {
+  display: flex;
+  align-items: center;
+  padding: 15px 0px;
+  gap: 5px;
+}
+.jhonuser p {
+  font-size: 0.8rem;
+}
+
+.sidefooter a {
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
