@@ -12,7 +12,7 @@
 
 a {
   text-decoration: none;
-  color: white;
+  /* color: white; */
 }
 
 ul {
@@ -55,15 +55,65 @@ footer {
   padding: 10px 7px;
 }
 
+/* displayon/off */
 .logo {
-  display: none;
+  /* display: none; */
   width: 7rem;
 }
 
 .logosmall {
   width: 2rem;
-  /* display: none; */
+  display: none;
 }
+
+.sidemenu {
+  display: none;
+}
+
+/* displayon/off */
+
+/* HOVER */
+
+.sidecontent *:hover {
+  color: white;
+}
+
+.home:hover {
+  border-left: greenyellow solid 5px;
+  padding-left: 5px;
+}
+.cerca:hover {
+  border-left: greenyellow solid 5px;
+  padding-left: 5px;
+}
+.libreria:hover {
+  border-left: greenyellow solid 5px;
+  padding-left: 5px;
+}
+
+/* HOVER */
+
+/* before */
+
+.sidemenuxl .home::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f015";
+  font-size: 1.2rem;
+}
+.sidemenuxl .cerca::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f002";
+  font-size: 1.2rem;
+}
+.sidemenuxl .libreria::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\e51e";
+  font-size: 1.2rem;
+}
+/* before */
 
 /* sidebar */
 
@@ -89,12 +139,27 @@ footer {
   color: gray;
 }
 
-.sidecontent i {
+.sidemenu i {
   font-size: 1.1rem;
+  color: gray;
 }
 
 .sidemenu {
   padding: 10px 0px;
+}
+
+.sidemenuxl a {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.sidemenuxl {
+  padding: 10px 0px;
+}
+
+#plus {
+  font-size: 2rem;
+  color: gray;
 }
 
 /* sidefooter */
@@ -109,7 +174,12 @@ footer {
   font-size: 0.8rem;
 }
 
-.sidefooter a {
-  padding-bottom: 5px;
+.install {
   border-bottom: 1px solid gray;
+  font-size: 0.7rem;
+  padding-bottom: 10px;
+}
+
+.install * {
+  color: gray;
 }
