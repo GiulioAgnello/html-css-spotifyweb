@@ -211,6 +211,8 @@ footer {
   flex-direction: column;
   padding: 5px 10px;
   background-color: #000000;
+  overflow: auto;
+  scrollbar-width: none;
 }
 
 .maincontainer {
