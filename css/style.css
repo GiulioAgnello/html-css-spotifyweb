@@ -314,3 +314,46 @@ button {
 }
 
 /* maincontainer */
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  font-size: 0.8rem;
+}
+
+/* footleft */
+
+.foot-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.foot-photo {
+  width: 2rem;
+}
+
+.foot-left .brano-text .name-brano {
+  font-weight: normal;
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.icon-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 25px;
+  color: gray;
+}
+
+.icon-left i {
+  color: gray;
+}
+
+/* footleft */
+
+/* footer */
