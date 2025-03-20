@@ -290,10 +290,13 @@ footer *:hover {
   }
 
   .foot-right {
-    width: calc(100% / 3);
+    width: calc(100% / 4);
   }
   .icon-right {
     margin-left: 2px;
+    font-size: 0.6rem;
+  }
+  .icona-volume {
     font-size: 0.6rem;
   }
 }
