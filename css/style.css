@@ -40,6 +40,10 @@ ul {
   background-color: #141922;
 }
 
+body {
+  font-weight: bold;
+}
+
 main {
   height: calc(100vh - 90px);
   display: flex;
