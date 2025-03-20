@@ -136,11 +136,17 @@ footer *:hover {
   .white {
     background-color: lime;
   }
+  .circlebarr {
+    display: block;
+  }
 }
 
 .barra-volume :hover {
   .white {
     background-color: lime;
+  }
+  .circlebarr {
+    display: block;
   }
 }
 
@@ -363,6 +369,7 @@ footer {
   transform: translate(50%, -50%);
   top: 50%;
   right: 0;
+  display: none;
 }
 
 /* footleft */
