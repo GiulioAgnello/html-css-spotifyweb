@@ -107,6 +107,7 @@ header {
 
 .sidecontent *:hover {
   color: white;
+  cursor: pointer;
 }
 
 .home:hover {
@@ -123,8 +124,33 @@ header {
 }
 
 /* maincontent */
+
+footer *:hover {
+  cursor: pointer;
+}
 .shadow:hover {
   padding: 12px 60px;
+}
+
+.barra-brano :hover {
+  .white {
+    background-color: lime;
+  }
+}
+
+.barra-volume :hover {
+  .white {
+    background-color: lime;
+  }
+}
+
+.brano-text :hover {
+  color: lightgray;
+  text-decoration: underline;
+}
+
+.icon-left :hover {
+  color: lightgray;
 }
 /* HOVER */
 
@@ -158,6 +184,9 @@ header {
 }
 
 /* before */
+/* after */
+
+/* after */
 
 /* media */
 
@@ -325,6 +354,13 @@ footer {
   gap: 20px;
 }
 
+.circlebarr {
+  height: 10px;
+  width: 10px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
 /* footleft */
 
 .foot-left {
@@ -334,10 +370,10 @@ footer {
 }
 
 .foot-photo {
-  width: 2rem;
+  width: 2.5rem;
 }
 
-.foot-left .brano-text .name-brano {
+.name-brano {
   font-weight: normal;
   font-size: 0.7rem;
   color: gray;
@@ -347,8 +383,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  padding-left: 25px;
-  color: gray;
+  padding-left: 10px;
+  font-size: 1rem;
 }
 
 .icon-left i {
@@ -397,13 +433,30 @@ footer {
   border-radius: 10px;
   width: 25%;
 }
+
+.lime {
+  height: 4px;
+  background-color: lime;
+  border-radius: 10px;
+  width: 25%;
+}
 .foot-right {
-  width: 100px;
   display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .volume {
   display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100px;
 }
 
 .barra-volume {
