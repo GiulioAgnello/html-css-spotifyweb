@@ -359,6 +359,10 @@ footer {
   width: 10px;
   background-color: gray;
   border-radius: 50%;
+  position: absolute;
+  transform: translate(50%, -50%);
+  top: 50%;
+  right: 0;
 }
 
 /* footleft */
@@ -432,6 +436,7 @@ footer {
   background-color: white;
   border-radius: 10px;
   width: 25%;
+  position: relative;
 }
 
 .lime {
