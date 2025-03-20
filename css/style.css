@@ -194,7 +194,7 @@ footer *:hover {
 
 /* after */
 
-/* media */
+/* media side bar */
 
 @media screen and (max-width: 2000px) {
   #sidebar {
@@ -222,7 +222,7 @@ footer *:hover {
   }
 }
 
-@media screen and (max-width: 552px) {
+@media screen and (max-width: 500px) {
   #sidebar {
     width: 60px;
   }
@@ -255,7 +255,50 @@ footer *:hover {
   }
 }
 
-/* media */
+/* media sidebar */
+/* media footer*/
+@media screen and (max-width: 500px) {
+  .foot-left {
+    width: calc(100% / 4);
+    .foot-photo {
+      width: 2rem;
+    }
+
+    .brano-text {
+      font-size: 0.5rem;
+    }
+    .icon-left {
+      font-size: 0.5rem;
+    }
+
+    .name-brano {
+      font-size: 0.4rem;
+    }
+
+    .icon-left {
+      padding-left: 0px;
+      flex-direction: column;
+    }
+  }
+
+  .foot-center {
+    width: calc(100% / 3);
+
+    .center-top {
+      gap: 10px;
+    }
+  }
+
+  .foot-right {
+    width: calc(100% / 3);
+  }
+  .icon-right {
+    margin-left: 2px;
+    font-size: 0.6rem;
+  }
+}
+
+/* media footer*/
 
 /* ELEMENT BODY */
 
@@ -357,7 +400,8 @@ footer {
   align-items: center;
   padding: 0px 10px;
   font-size: 0.8rem;
-  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .circlebarr {
@@ -376,17 +420,24 @@ footer {
 
 .foot-left {
   display: flex;
-  gap: 10px;
+  gap: 5px;
   align-items: center;
+  flex-grow: 1;
+
+  flex-shrink: 1;
 }
 
 .foot-photo {
   width: 2.5rem;
 }
 
+.brano-text {
+  font-size: 0.7rem;
+}
+
 .name-brano {
   font-weight: normal;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   color: gray;
 }
 
@@ -406,7 +457,10 @@ footer {
 /* footcenter */
 
 .foot-center {
-  width: 500px;
+  flex-grow: 1;
+
+  max-width: 500px;
+  flex-shrink: 1;
 }
 
 .center-top {
@@ -456,6 +510,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-grow: 1;
+
+  justify-content: flex-end;
+  flex-shrink: 1;
 }
 
 .icon-right {
