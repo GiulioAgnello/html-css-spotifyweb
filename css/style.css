@@ -397,6 +397,18 @@ footer {
   border-radius: 10px;
   width: 25%;
 }
+.foot-right {
+  width: 100px;
+  display: flex;
+}
+
+.volume {
+  display: flex;
+}
+
+.barra-volume {
+  flex-grow: 1;
+}
 
 /* footcenter */
 
