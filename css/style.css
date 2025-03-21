@@ -438,10 +438,11 @@ button {
   flex-wrap: wrap;
   max-width: 100%;
   gap: 10px;
+  padding-top: 20px;
 }
 
 .recently h3 {
-  padding: 20px 0px;
+  padding: 5px 0px;
 }
 
 .recently img {
@@ -453,6 +454,11 @@ button {
 }
 
 .subtitlecard {
+  font-size: 0.6rem;
+  color: gray;
+}
+
+.subtitle {
   font-size: 0.6rem;
   color: gray;
 }
