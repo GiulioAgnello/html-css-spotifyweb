@@ -40,6 +40,7 @@ ul {
   row-gap: 2rem;
   margin-left: -1rem;
   margin-right: -1rem;
+  gap: 10px;
 }
 
 .wrapper {
@@ -69,6 +70,7 @@ footer {
 
 #maincontainer {
   width: 100%;
+  overflow: auto;
 }
 
 header {
@@ -81,11 +83,11 @@ header {
 
 .mainbody {
   height: calc(100vh - 60px);
-  overflow: hidden;
 }
 
 .col-1-6 {
-  max-width: 20%;
+  width: 130px;
+  text-align: center;
 }
 
 /* displayon/off */
@@ -410,6 +412,7 @@ button {
 
 .navmain {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
   font-size: 0.8rem;
@@ -435,6 +438,15 @@ button {
   width: 100%;
 }
 
+.titlecard {
+  font-size: 0.7rem;
+}
+
+.subtitlecard {
+  font-size: 0.6rem;
+  color: gray;
+}
+
 /* mainbody */
 
 /* maincontainer */
@@ -448,6 +460,7 @@ footer {
   font-size: 0.8rem;
   flex-wrap: wrap;
   width: 100%;
+  z-index: 10;
 }
 
 .circlebarr {
