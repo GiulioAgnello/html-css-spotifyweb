@@ -71,6 +71,7 @@ footer {
 #maincontainer {
   width: 100%;
   overflow: auto;
+  flex-direction: column;
 }
 
 header {
@@ -88,6 +89,10 @@ header {
 .col-1-6 {
   width: 130px;
   text-align: center;
+}
+
+.col-1-6 * {
+  padding-bottom: 5px;
 }
 
 /* displayon/off */
@@ -415,7 +420,7 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   text-transform: uppercase;
   padding-top: 20px;
 }
@@ -432,6 +437,11 @@ button {
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;
+  gap: 10px;
+}
+
+.recently h3 {
+  padding: 20px 0px;
 }
 
 .recently img {
