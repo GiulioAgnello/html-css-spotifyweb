@@ -425,9 +425,14 @@ button {
   width: 35%;
   margin: 5px auto;
 }
+.library {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
 
 .recently img {
-  max-width: 210px;
+  width: 100%;
 }
 
 /* mainbody */
