@@ -62,6 +62,9 @@ footer {
   height: 90px;
   background-color: #282828;
 }
+img {
+  display: block;
+}
 
 .sidehead {
   height: 60px;
@@ -76,7 +79,7 @@ footer {
 
 header {
   height: 60px;
-  background-color: #000000;
+  background-color: #0c0c17;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -91,10 +94,6 @@ header {
 .col-1-6 {
   width: 130px;
   text-align: center;
-}
-
-.col-1-6 * {
-  padding-bottom: 5px;
 }
 
 .col-1-6.circle img {
@@ -154,8 +153,9 @@ header {
 footer *:hover {
   cursor: pointer;
 }
-.shadow:hover {
-  padding: 12px 60px;
+.top-button:hover {
+  font-size: 1rem;
+  margin-right: 20px;
 }
 
 .barra-brano :hover {
@@ -466,16 +466,41 @@ footer *:hover {
 /* maincontainer */
 
 button {
-  margin-right: 50px;
+  margin-right: 20px;
+}
+
+.top-button {
+  padding: 10px 20px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 0.7rem;
+}
+
+.containercard {
+  position: relative;
+}
+.titlecard {
+  margin-top: 10px;
 }
 
 .shadow {
-  padding: 10px 50px;
-  background-color: #4343433f;
-  border: 1px solid white;
-  border-radius: 20px;
-  font-size: 0.6rem;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: #080606af;
+  display: none;
+  justify-content: center;
+  align-content: center;
+  font-size: 3rem;
 }
+
+.col-1-6:hover .shadow {
+  display: block;
+}
+
 /* mainbody */
 
 .navmain {
