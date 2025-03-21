@@ -431,7 +431,7 @@ footer {
 }
 
 .foot-photo {
-  width: 2.5rem;
+  max-height: 65px;
 }
 
 .brano-text {
